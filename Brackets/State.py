@@ -3,7 +3,8 @@ from Brackets.Team import Team
 
 class State(Team):
     # Holds data about individual state for people to look up
-    def __init__(self, electoral_votes, percent_obama, percent_romney, percent_white, percent_hispanic, percent_black):
+    def __init__(self, name, electoral_votes, percent_obama, percent_romney, percent_white, percent_hispanic, percent_black):
+        self.name = name
         self.electoral_votes = electoral_votes
         self.percent_obama = percent_obama
         self.percent_romney = percent_romney
