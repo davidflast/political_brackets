@@ -1,4 +1,4 @@
-from Brackets.Game import Game
+from Brackets.Bracket.Game import Game
 
 
 class Bracket(object):

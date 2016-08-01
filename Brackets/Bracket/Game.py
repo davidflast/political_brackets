@@ -1,6 +1,3 @@
-from Brackets import Team
-
-
 class Game(object):
     def __init__(self, row, col, child_one, child_two):
         self.row = row
